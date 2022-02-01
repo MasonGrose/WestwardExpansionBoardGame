@@ -1,12 +1,12 @@
-<span id="tile"></span>
+<p id="tile"></p>
 <script>
   var myArray = [
   "Get the plague, loose 15 tiles",
   "Get the plague, loose 10 tiles",
   "Move 2 tiles."
 ];
+document.getElementById("tile").innerHTML = getTile();
 function getTile(){
 var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
 }
-document.getElementById("tile").innerHTML = getTile();
 </script>
