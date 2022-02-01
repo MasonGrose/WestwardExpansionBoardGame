@@ -1,1 +1,12 @@
-<h1>Westward Expansion Board Game</h1>
+<span id="tile"></span>
+<script>
+  var myArray = [
+  "Get the plague, loose 15 tiles",
+  "Get the plague, loose 10 tiles",
+  "Move 2 tiles."
+];
+function getTile(){
+var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+}
+document.getElementById("tile").innerHTML = getTile();
+</script>
