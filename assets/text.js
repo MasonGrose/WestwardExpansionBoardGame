@@ -31,7 +31,6 @@ var data = [
   return out[Math.floor(Math.random() * out.length)];
 }
 function newRoll(){
-    var tile = document.getElementById("tile");
     document.getElementById("tile").innerHTML = "";
         let out = [];
   
