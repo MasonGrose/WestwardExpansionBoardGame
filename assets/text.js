@@ -32,5 +32,5 @@ var data = [
 }
 function newRoll(){
     document.getElementById("tile").innerHTML = "";
-    getTile();
+    document.getElementById("tile").innerHTML = getTile();
 }
