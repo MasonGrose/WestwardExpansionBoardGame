@@ -33,7 +33,7 @@ var data = [
 function newRoll(){
     var tile = document.getElementById("tile");
     document.getElementById("tile").innerHTML = "";
-    if(tile.innerHTML == ""){
+    if($tile.innerHTML == ""){
         let out = [];
   
   // Loop through the master entries.
