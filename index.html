@@ -18,9 +18,12 @@
     <p class="mt-2 text-gray-600" id="tile"></p>
         </div>
   <div class="flex justify-end mt-4">
-    <button onclick="getTile()" class="text-xl font-medium text-indigo-500">Roll Again (soon)</button>
+    <button onclick="getTile();" id="buttonRoll" class="text-xl font-medium text-indigo-500">Roll Again (soon)</button>
   </div>
 </div>
 </body>
+<script>
+document.getElementById("buttonRoll").onclick = getTile();
+    </script>
 <script src="./assets/text.js"></script>
 </html>
