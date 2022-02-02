@@ -33,7 +33,6 @@ var data = [
 function newRoll(){
     var tile = document.getElementById("tile");
     document.getElementById("tile").innerHTML = "";
-    if($tile.innerHTML == ""){
         let out = [];
   
   // Loop through the master entries.
@@ -47,7 +46,5 @@ function newRoll(){
   
   // And done!
   return out[Math.floor(Math.random() * out.length)];
-    }else{
-        console.log("error");
-    }
+document.getElementById("tile").innerHTML = out;
 }
