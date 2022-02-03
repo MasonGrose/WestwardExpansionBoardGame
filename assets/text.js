@@ -30,13 +30,15 @@ var data = [
       // weight.
       for (let j = 0; j < data[i][1]; ++j) {
           out.push(data[i][0]);
+
           num.push(data[i][2]);
       }
   }
   
   // And done!
   return out[Math.floor(Math.random() * out.length)];
-  
+  //return num[Math.floor(Math.random() * num.length)];
+  moveTile(num[Math.floor(Math.random() * num.length)]);
 }
 function newRoll(){
     document.getElementById("tile").innerHTML = "";
