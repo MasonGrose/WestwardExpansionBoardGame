@@ -56,4 +56,4 @@ function spliceIntoChunks(arr, chunkSize) {
 }
 const arr = ["hello mason", 2];
 var testing = spliceIntoChunks(arr, 1)
-console.log(testing[2]);
+console.log(testing[1]);
