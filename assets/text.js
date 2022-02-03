@@ -29,6 +29,7 @@ var data = [
       // weight.
       for (let j = 0; j < data[i][1]; ++j) {
           out.push(data[i][0]);
+          moveTile(data[i][2]);
       }
   }
   
