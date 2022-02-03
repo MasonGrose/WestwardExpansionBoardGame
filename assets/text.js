@@ -1,7 +1,7 @@
 var data = [
-    ["Get the plague, loose 15 tiles", 1],
-    ["Get the plague, loose 10 tiles", 1],
-    ["Move 2 tiles.", 6],
+    ["Get the plague, loose 15 tiles", 1, 2],
+    ["Get the plague, loose 10 tiles", 1, 3],
+    ["Move 2 tiles.", 6, 4],
     ["Move 3 tiles.", 4],
     ["Get stuck in the snow, loose 2 tiles.", 1],
     ["Move 1 tiles.", 7],
