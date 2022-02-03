@@ -55,4 +55,4 @@ function spliceIntoChunks(arr, chunkSize) {
   return res;
 }
 const arr = ["hello mason", 2];
-console.log(spliceIntoChunks(arr, 2));
+console.log(spliceIntoChunks(arr, 1));
