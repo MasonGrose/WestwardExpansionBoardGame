@@ -36,7 +36,7 @@ var data = [
   }
   
   // And done!
-  //return out[Math.floor(Math.random() * out.length)];
+  return out[Math.floor(Math.random() * out.length)];
   return num[Math.floor(Math.random() * num.length)];
 }
 
