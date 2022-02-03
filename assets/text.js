@@ -36,6 +36,8 @@ var data = [
   
   // And done!
   return out[Math.floor(Math.random() * out.length)];
+  var move = spliceIntoChunks(out, 1)
+  moveTile(move);
   //return num[Math.floor(Math.random() * num.length)];
 }
 function newRoll(){
@@ -54,6 +56,6 @@ function spliceIntoChunks(arr, chunkSize) {
   }
   return res;
 }
-const arr = ["hello mason", 2];
-var testing = spliceIntoChunks(arr, 1)
-console.log(testing[1]);
+//const arr = ["hello mason", 2];
+//var testing = spliceIntoChunks(arr, 1)
+//console.log(testing[1]);
