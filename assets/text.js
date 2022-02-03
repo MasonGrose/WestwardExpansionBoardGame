@@ -22,6 +22,7 @@ var data = [
   document.getElementById("tile").innerHTML = getTile();
   function getTile(){
   let out = [];
+  let num = [];
   
   // Loop through the master entries.
   for (let i = 0; i < data.length; ++i) {
@@ -29,12 +30,13 @@ var data = [
       // weight.
       for (let j = 0; j < data[i][1]; ++j) {
           out.push(data[i][0]);
-          moveTile(data[i][2]);
+          num.push(data[i][2]);
       }
   }
   
   // And done!
   return out[Math.floor(Math.random() * out.length)];
+  
 }
 function newRoll(){
     document.getElementById("tile").innerHTML = "";
