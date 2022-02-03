@@ -35,8 +35,10 @@ var data = [
   }
   
   // And done!
-  return out[Math.floor(Math.random() * out.length)];
-  var move = spliceIntoChunks(out, 1)
+  var output = out[Math.floor(Math.random() * out.length)];
+  var text = spliceIntoChunks(output, 1);
+  return text;
+  var move = spliceIntoChunks(output, 1)
   moveTile(move);
   //return num[Math.floor(Math.random() * num.length)];
 }
