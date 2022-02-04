@@ -37,7 +37,7 @@ var data = [
   // And done!
   var output = out[Math.floor(Math.random() * out.length)];
   var text = spliceIntoChunks(output, 1);
-  moveTile(text[2])
+  moveTile(text[1])
   return text[0];
   //return num[Math.floor(Math.random() * num.length)];
 }
