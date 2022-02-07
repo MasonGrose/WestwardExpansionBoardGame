@@ -46,7 +46,7 @@ function newRoll(){
     document.getElementById("tile").innerHTML = getTile();
 }
 function moveTile(amount){
-  document.getElementById("user").className += "mr-4";
+  document.getElementById("user").className += "mr-".amount;
   console.log("You moved "+amount+" tiles.");
 }
 function spliceIntoChunks(arr, chunkSize) {
