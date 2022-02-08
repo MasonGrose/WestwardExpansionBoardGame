@@ -19,6 +19,14 @@ var data = [
     ["You've ran out of wood. Loose 1 tile.", 1, -1],
     ["You've gotten mauled by a bear. Loose 5 tiles.", 0.1, -5],
   ];
+begText1 = document.getElementById("tile").innerHTML;
+buttonText = document.getElementById("btnText").innerHTML;
+betText = "To play the game, press roll again and your tile will move. Your goal is to get to the end without loosing more than 30 tiles in one game. Good luck!";
+if(begText1 == betText){
+    buttonText = "Start game!";
+}else{
+    buttonText = "Roll again!";
+}
   //document.getElementById("tile").innerHTML = getTile();
   function getTile(){
   let out = [];
