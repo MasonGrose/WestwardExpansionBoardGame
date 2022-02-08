@@ -52,6 +52,7 @@ if(document.getElementById("tile").innerHTML == "To play the game, press roll ag
 function newRoll(){
     document.getElementById("tile").innerHTML = "";
     document.getElementById("tile").innerHTML = getTile();
+    document.getElementById("buttonRoll").innerHTML = "Roll again!";
 }
 function moveTile(amount){
   document.getElementById("user").className += "mr-".amount;
