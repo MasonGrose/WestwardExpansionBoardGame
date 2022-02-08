@@ -19,7 +19,7 @@ var data = [
     ["You've ran out of wood. Loose 1 tile.", 1, -1],
     ["You've gotten mauled by a bear. Loose 5 tiles.", 0.1, -5],
   ];
-  document.getElementById("tile").innerHTML = getTile();
+  //document.getElementById("tile").innerHTML = getTile();
   function getTile(){
   let out = [];
   let num = [];
