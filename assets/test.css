@@ -11,7 +11,7 @@ div {
 .game_board {
   width: 60em;
   height: 48em;
-  background-color: red;
+  background-color: transparent;
 }
 
 .row {
