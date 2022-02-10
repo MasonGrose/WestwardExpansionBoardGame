@@ -16,7 +16,7 @@ div {
 
 .row {
   background-color: lightgreen;
-  width: 60em;
+  width: 60rem;
   height: 12em;
   display: table-row;
 }
