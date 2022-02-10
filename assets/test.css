@@ -9,6 +9,7 @@ div {
  * The right column is player info panels
  */
 .game_board {
+  margin-left: 10px;
   width: 60em;
   height: 48em;
   background-color: transparent;
