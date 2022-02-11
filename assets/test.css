@@ -26,8 +26,8 @@ div {
   outline: .25em solid white;
   background-color: lightblue;
   display: table-cell;
-  width: 5rem;
-  height: 5rem;
+  width: 80px; 
+  height: 36px;
   text-align: center;
   padding: .5em;
 }
