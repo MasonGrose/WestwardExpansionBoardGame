@@ -1,3 +1,4 @@
+@@ -1,344 +0,0 @@
 var data = [
     ["Get the plague, loose 15 tiles", 1, -15],
     ["Get the plague, loose 10 tiles", 1, -10],
