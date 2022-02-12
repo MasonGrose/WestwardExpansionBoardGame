@@ -10,8 +10,8 @@ div {
  */
 .game_board {
   margin-left: 10px;
-  width: 60em;
-  height: 48em;
+  width: full;
+  height: full;
   background-color: transparent;
 }
 
@@ -26,8 +26,8 @@ div {
   outline: .25em solid white;
   background-color: lightblue;
   display: table-cell;
-  width: 80px; 
-  height: 36px;
+  width: 100px; 
+  height: 10px;
   text-align: center;
   padding: .5em;
 }
@@ -41,7 +41,7 @@ div {
 }
 
 /*Tokens*/
-.Triangle {
+.triangle {
   display: inline-block;
   width: 0;
   height: 0;
@@ -60,7 +60,7 @@ div {
   border-radius: 50px;
 }
 
-#player1-info_token {
+.player1-info_token {
   display: inline-block;
   margin: 0;
   width: 0;
@@ -79,4 +79,8 @@ div {
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
+}
+
+.car{
+  background-image: url(/assets/wagon.png);
 }
