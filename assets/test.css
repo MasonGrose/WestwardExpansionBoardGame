@@ -9,7 +9,8 @@ div {
  * The right column is player info panels
  */
 .game_board {
-  margin-left: 10px;
+  margin-right: 50px;
+  margin-left: 40px;
   width: full;
   height: full;
   background-color: transparent;
@@ -18,7 +19,7 @@ div {
 .row {
   background-color: lightgreen;
   width: 60em;
-  height: 12em;
+  height: 6em;
   display: table-row;
 }
 
